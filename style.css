@@ -1,0 +1,138 @@
+color: #dff6f0 #46b3e6 #4d80e4 #2e279d .container-fluid {
+  padding: 7% 15%;
+}
+
+/*Navigation bar*/
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title .container-fluid {
+  padding: 3% 0% 0%;
+  text-align: left;
+  background-color: #FFFFFF;
+}
+
+.nav-item {
+  padding: 0 68px;
+}
+
+.navbar-brand {
+  padding: 0% 3%;
+}
+
+.logo-image {
+  width: 130px;
+  height: auto;
+}
+
+.navbar-custom {
+  background-color: #FFFFFF;
+  padding: 0 0 3%;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/*headline*/
+.headline-carousel {
+  padding: 10% 0;
+  background-color: #46b3e6;
+  color: #FFFFFF;
+}
+
+.headline {
+  text-align: center;
+  padding: 5% 10%
+}
+
+@media (min-width: 1200px) {
+  .headline {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .headline {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .headline {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .headline {
+    font-size: 1.5rem;
+  }
+}
+
+/*projects*/
+#projects {
+  position: relative;
+}
+
+.project-box {
+  padding: 4.5%;
+}
+
+.flowchart-img {
+  width: 420px;
+  height: auto;
+}
+
+/*what-we-do*/
+#what-we-do {
+  background-color: #dff6f0;
+}
+
+.uipath-img {
+  display: block;
+  width: 700px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scrum-img {
+  width: 420px;
+  height: auto;
+}
+
+.what-we-do-box {
+  padding: 4.5%;
+}
+
+/*who-we-are*/
+.who-we-are-box {
+  padding: 4.5%;
+}
+
+.member-img {
+  display: block;
+  width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0 5% 0;
+}
+
+.member {
+text-align: center;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #2e279d
+}
+
+.footer-text {
+  text-align: center;
+  color: #FFFFFF;
+}

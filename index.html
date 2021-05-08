@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Charlie Website</title>
+
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+  <!--css style-->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/2634e6880e.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+        <a class="navbar-brand" href="#"><img class="logo-image" src="images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#what-we-do">What We Do</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#who-we-are">Who We Are</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Headline -->
+      <div class="headline-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active headline" data-bs-interval="5000">
+            <p>
+              Automation may be a good thing, but don’t forget that it began with Frankenstein.” – Anonymous
+            </p>
+          </div>
+          <div class="carousel-item headline" data-bs-interval="5000">
+            <p>
+              Just because you can automate something, it doesn’t follow that it should be automated.
+            </p>
+          </div>
+          <div class="carousel-item headline" data-bs-interval="5000">
+            <p>
+              Automation is cost cutting by tightening the corners and not cutting them.” – Haresh Sippy
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="projects">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="project-box col-lg-6">
+          <img src="images/vendorsgovgebiz.jpg" alt="">
+          <p></p>
+        </div>
+        <div class="project-box col-lg-6">
+          <h3 class="feature-title">Automating tracking of business tender opportunities</h3>
+          <p>Projects are the lifeblood of many enterprises and they are often issued as tenders by large multinational corporations (MNCs) or Government. Time and effort are usually spent monitoring or scanning through tender platforms such as
+            ThunderQuote or GeBIZ. Furthermore, the specifications of the tenders are often hidden in attached documents prepared by client organisations, and going through this process can be tedious and time-consuming.</p>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="project-box col-lg-6">
+          <p>The project starts with the unattended robot can be scheduled in Orchestrator to start running automatically opening the GeBIZ web browser, logs in with SingPass credentials derived from Orchestrator, and types in the keywords from the
+            excel file (userkeyword_list.xlsx) which contains the preset keywords into the search bar in the GeBIZ website. These keywords can be changed according to the user’s preference by editing the data in the excel file.</p>
+        </div>
+        <div class="project-box col-lg-6">
+          <img class="flowchart-img" src="images/flowchart.png" alt="">
+        </div>
+
+      </div>
+
+  </section>
+
+
+  <section id="what-we-do">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="what-we-do-box col-lg-12">
+          <img class="uipath-img" src="images/uipath.PNG" alt="">
+          <p></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="project-box col-lg-6">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="project-box col-lg-6">
+          <img class="scrum-img" src="images/scrum.png" alt="">
+        </div>
+
+      </div>
+
+
+
+  </section>
+
+
+  <section id="who-we-are">
+
+    <div class="who-we-are-box">
+      <img class="member-img" src="images/member.jfif" alt="">
+      <h2 class="member">Hello.</h2>
+      <p class="member">We are a group of Software for Automation members.</p>
+    </div>
+
+  </section>
+
+  <footer id="footer">
+
+    <div class="container-fluid footer-text">
+
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2021 SCT5 Group Charlie</p>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
